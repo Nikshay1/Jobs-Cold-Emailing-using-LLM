@@ -1,4 +1,4 @@
-# Project Name
+# 📧COLD EMAILING PROJECT
 
 This README provides instructions on how to set up and run this project.
 
@@ -6,7 +6,7 @@ This README provides instructions on how to set up and run this project.
 
 Before you begin, ensure you have the following installed:
 
-* Python (version X.X or higher)
+* Python
 * pip (package installer for Python)
 
 ## Setting up the Environment
