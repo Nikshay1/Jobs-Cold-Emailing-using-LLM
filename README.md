@@ -30,7 +30,7 @@ Once the virtual environment is created, you need to activate it. The activation
 
 **On Windows:**
 
-    venv\\Scripts\\activate
+    venv\Scripts\activate
 
 **On macOS and Linux:**
 
@@ -61,8 +61,7 @@ This command will read the `requirements.txt` file and install all the listed pa
 
 ## Running the Project
 
-\[Provide instructions on how to run the project after installing the dependencies. This might include commands to execute a specific script or start a server.]
-
+\In terminal write streamlit run main.py while being in the root directory. 
 ## Additional Notes
 
 \[Include any other relevant information, such as configuration details, data setup, or troubleshooting tips.]
