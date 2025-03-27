@@ -61,7 +61,6 @@ This command will read the `requirements.txt` file and install all the listed pa
 
 ## Running the Project
 
-\In terminal write streamlit run main.py while being in the root directory. 
-## Additional Notes
+To run the project, open your terminal, navigate to the root directory of the project, and then execute the following command:
 
-\[Include any other relevant information, such as configuration details, data setup, or troubleshooting tips.]
+    streamlit run main.py
