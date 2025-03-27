@@ -30,7 +30,7 @@ Once the virtual environment is created, you need to activate it. The activation
 
 **On Windows:**
 
-    venv\Scripts\activate
+    venv\\Scripts\\activate
 
 **On macOS and Linux:**
 
@@ -58,6 +58,20 @@ Alternatively, if a `requirements.txt` file is provided in the project, you can 
     pip install -r requirements.txt
 
 This command will read the `requirements.txt` file and install all the listed packages and their dependencies.
+
+## Configuring the GROQ API Key
+
+This project utilizes the Langchain GROQ integration, which requires an API key. Follow these steps to obtain and configure your API key:
+
+1.  **Create a GROQ API Key:** Visit the [GROQ Console](https://console.groq.com/keys) and create a new API key.
+2.  **Create a `.env` file:** In the root directory of the project, create a new file named `.env`.
+3.  **Add the API Key to `.env`:** Open the `.env` file and add your GROQ API key in the following format:
+
+    ```
+    GROQ_API_KEY=YOUR_GROQ_API_KEY
+    ```
+
+    Replace `YOUR_GROQ_API_KEY` with the actual API key you obtained from the GROQ Console.
 
 ## Running the Project
 
